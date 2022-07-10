@@ -11,8 +11,13 @@ config_version=4
 [application]
 
 config/name="test-git"
-run/main_scene="res://test1stSprite.tscn"
+run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=500
+window/size/height=500
 
 [gdnative]
 
