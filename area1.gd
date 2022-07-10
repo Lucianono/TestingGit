@@ -8,7 +8,7 @@ func _ready():
 	srnsize = get_viewport_rect().size
 	extnts = get_node("Sprite").get_texture().get_size() / 2
 	randomize()
-	spd = rand_range(-500,500)
+	spd = 200
 	set_process(true)
 	set_position(srnsize /2)
 	
